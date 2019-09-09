@@ -26,7 +26,7 @@ class _CGPAState extends State<CGPA> with AutomaticKeepAliveClientMixin{
           children: <Widget>[
             Container(
               child:(calculation.numberOfSmesters>0)?
-                Text('press clear to enter again'):Text('No of subjects:  '),
+                Text('press clear to enter again'):Text('No of smesters:  '),
               padding: EdgeInsets.only(right: 10),),
               smesterDropDownButton()
           ],
